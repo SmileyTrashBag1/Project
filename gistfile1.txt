@@ -1,0 +1,6 @@
+import time
+from gpiozero import Button
+import pygame
+from pygame.locals import *
+import random
+memes = ("Jackieboy.jpg","Monday.jpg","thug-life.jpeg","DocStrange.jpg",Obama.png","Clients.jpg","FiveSix.jpg",DatLook.jpg",)
