@@ -4,3 +4,62 @@ import pygame
 from pygame.locals import *
 import random
 memes = ("Jackieboy.jpg","Monday.jpg","thug-life.jpeg","DocStrange.jpg",Obama.png","Clients.jpg","FiveSix.jpg",DatLook.jpg",)
+puns = ("TEA(pun).jpg", "Voldyshorts(pun).jpg","Keys.jpg","Pun.jpg","Wood.jpg", "Cats.jpg","Downhill.jpg","pointless.jpg")
+Chuck_Norris = ("ChuckBoogy.jpg", "ChuckPoke.jpg", "ChuckInfinity.jpg","ChuckAnswers.jpg","ChuckExhale.jpg","ChuckJokes.jpg", "ChuckPlane.jpeg","ChuckSiccors.jpg")
+jokes = ("Netflix.png","Cops.jpg", "cow.jpg", "minion.jpg","Firefly.jpg","fridge.jpg","Restruant.jpg","Homework,jpg")
+#the items in the lists are our images, if you want to use this code yourself you'll have to download your own images and put the file names in the lists.
+
+btn = Button(17)
+print "Hello welcome to a funny adventure!!!!!"
+time.sleep(1)
+print "Press a button to get a funny!"
+def hello():
+  pygame.init()
+  screen = pygame.display.set_mode((500,500), 0, 32)
+  image = pygame.image.load(random.choice(memes)).convert_alpha()
+  if True:
+    screen.blit(image,(0,0))
+    pygame.display.update()
+btn.when_pressed = hello
+
+
+btn = Button(17)
+print "Hello welcome to a funny adventure!!!!!"
+time.sleep(1)
+print "Press a button to get a funny!"
+def hello():
+  pygame.init()
+  screen = pygame.display.set_mode((500,500), 0, 32)
+  image = pygame.image.load(random.choice(puns)).convert_alpha()
+  if True:
+    screen.blit(image,(0,0))
+    pygame.display.update()
+btn.when_pressed = hello
+
+
+btn = Button(17)
+print "Hello welcome to a funny adventure!!!!!"
+time.sleep(1)
+print "Press a button to get a funny!"
+def hello():
+  pygame.init()
+  screen = pygame.display.set_mode((500,500), 0, 32)
+  image = pygame.image.load(random.choice(Chuck_Norris)).convert_alpha()
+  if True:
+    screen.blit(image,(0,0))
+    pygame.display.update()
+btn.when_pressed = hello
+
+
+btn = Button(17)
+print "Hello welcome to a funny adventure!!!!!"
+time.sleep(1)
+print "Press a button to get a funny!"
+def hello():
+  pygame.init()
+  screen = pygame.display.set_mode((500,500), 0, 32)
+  image = pygame.image.load(random.choice(jokes)).convert_alpha()
+  if True:
+    screen.blit(image,(0,0))
+    pygame.display.update()
+btn.when_pressed = hello
